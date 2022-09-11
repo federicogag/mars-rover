@@ -7,7 +7,6 @@ import main.it.kata.rover.Position;
 /**
  * Class representing a move rover command. It contains additional methods
  * for calculating the new position
- * @author Federico
  *
  */
 public abstract class MovementRoverCommand extends RoverCommand {
