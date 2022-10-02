@@ -28,7 +28,7 @@ public abstract class MovementRoverCommand extends RoverCommand {
 		
 		Position nextPosition = new Position(position.getX() + 1, position.getY());
 		
-		if(nextPosition.getX() > planet.getMaxY())
+		if(nextPosition.getX() > planet.getMaxX())
 			nextPosition.setX(0);
 		
 		if(planet.isObstacle(nextPosition))
